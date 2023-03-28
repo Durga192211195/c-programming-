@@ -1,0 +1,4 @@
+int main() { int c = 0, count = 0; char s[1000];
+printf("Input a string\n"); gets(s);
+printf("Number of vowels in the string: %d", count);
+return 0; }
