@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int max(int number1, int number2);
+int min(int number1, int number2);
+
+int main() 
+{
+    int number1, number2, maximum, minimum;
+    
+  
+    printf("Enter any two numbers: ");
+    scanf("%d%d", &number1, &number2);
+    
+    maximum = max(number1, number2);  
+    minimum = min(number1, number2);  
+    printf("\nMaximum = %d\n", maximum);
+    printf("Minimum = %d", minimum);
+    
+    return 0;
+}
+
+int max(int number1, int number2)
+{
+    return (number1 > number2 ) ? number1 : number2;
+}
+
+
+int min(int number1, int number2) 
+{
+    return (number1 > number2 ) ? number2 : number1;
+}
