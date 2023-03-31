@@ -1,0 +1,14 @@
+int main() {
+    float length, width, area;
+
+    printf("Enter the length & width of the rectangle::\n");
+    scanf("%f", &length);
+    scanf("%f", &width);
+
+    // It will calculate area of rectangle
+    area = length * width;
+
+    // It will print the final output
+    printf("\nArea of the rectangle is: %f units\n", area);
+    return 0;
+}
